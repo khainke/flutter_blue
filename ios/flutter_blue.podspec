@@ -21,7 +21,7 @@ Bluetooth Low Energy plugin for Flutter.
   s.framework = 'CoreBluetooth'
 
   podspec_dir = File.dirname(__FILE__)
-  protoc_dir = File.join(ENV['PWD'], 'Pods/!ProtoCompiler')
+  protoc_dir = File.join(ENV['PWD'], 'ios/Pods/!ProtoCompiler')
   protoc = File.join(protoc_dir, 'protoc')
   objc_out = 'gen'
   proto_in = '../protos'
